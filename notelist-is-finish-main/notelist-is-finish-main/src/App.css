@@ -1,0 +1,226 @@
+.title,
+.des {
+  border-radius: 10px;
+  border: 4px solid var(--border-primary, #8678bb);
+  background: var(--interactive-enabled, #fff);
+  display: flex;
+  height: 40px;
+  padding: 0px 15px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  align-self: stretch;
+}
+
+
+.contents {
+  width: 500px;
+  height: 300px;
+  background-color: #AB9FBF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-direction: column;
+  border-radius: 30px;
+  border: 3px solid black;
+  box-shadow: 12px 12px 0px 0px #33322e;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(174, 234, 45, 0);
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-direction: column;
+}
+.button {
+  border-radius: 20px;
+  border: none;
+  background-color: #68598c;
+  box-shadow: 10.907px -2.12px 11.111px 0px #db6a07 inset,
+    -10.907px 2.12px 11.111px 0px rgb(255, 187, 0) inset,
+    -16.36px 3.18px 33.333px 0px rgba(0, 0, 0, 0);
+  width: 200px;
+  height: 50px;
+  color: rgb(255, 255, 255);
+  font-size: large;
+  font-weight: 600;
+  box-shadow: 2px 3px 0px 0px #33322e;
+}
+.notes {
+  background-color: rgba(221, 142, 38, 0);
+}
+.body {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.note-1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 370px;
+  height: 300px;
+  flex-shrink: 0;
+  border-radius: 24px;
+  border: 4px solid var(--Black, #33322e);
+  background-color: #e39bf5;
+  box-shadow: 12px 12px 0px 0px #33322e;
+  margin-left: 95px;
+  margin-top: 60px;
+  gap: 14px;
+  opacity: 1;
+  transition: 0.5s;
+
+
+}
+.Buttons{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  gap: 14px;
+}
+.des1{
+  width: 300px;
+  height: 500px;
+  font-family: "Lalezar", system-ui;
+  background-color: #ffffff;
+  border-radius: 15px;
+  display: flex;
+  align-items: start;
+  text-align: center;
+  justify-content: center;
+
+}
+.block{
+  margin-bottom: -30px;
+  margin-left: -110px;
+  font-size: small;
+}
+.block1{
+  margin-bottom: -30px;
+  margin-left: -150px;
+  font-size: small;
+
+}
+.delet{
+width: 70px; 
+height: 50px;
+margin-bottom: 15px;
+  background-color: rgb(245, 106, 106);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  color: #fff0ee;
+  font-weight: bold;
+  font-weight: 700;
+  gap: 4px;
+  border: none;
+  font-family: "Lalezar", system-ui;
+  transition: .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.delet:hover{
+  background-color: rgb(239, 24, 24);
+  transition: 0.3s;
+
+}
+.Edit{
+  width: 70px; 
+height: 50px;
+margin-bottom: 15px;
+  background-color: rgb(233, 129, 73);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  color: #fff0ee;
+  font-weight: bold;
+  font-weight: 700;
+  gap: 4px;
+  border: none;
+  font-family: "Lalezar", system-ui;
+}
+.Edit:hover{
+  background-color: rgb(237, 105, 11);
+  transition: 0.3s;
+
+}
+.Time{
+  width: 100px; 
+  height: 50px;
+  margin-bottom: 15px;
+  background-color: rgb(65, 165, 42);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  color: #fff0ee;
+  font-weight: bold;
+  font-weight: 600;
+  gap: 1px;
+
+}
+.h1{
+  color: #fff;
+}
+h5{
+  font-weight: 200;
+  font-size:smaller ; 
+}
+
+.Done{ 
+  width: 70px; 
+height: 50px;
+margin-bottom: 15px;
+  background-color: rgb(106, 115, 245);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  color: #fff0ee;
+  font-weight: bold;
+  font-weight: 700;
+  gap: 4px;
+  border: none;
+  font-family: "Lalezar", system-ui;
+  transition: .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.Done:hover{
+  background-color: rgb(24, 63, 239);
+  transition: 0.3s;
+
+}
+.note-2{
+   opacity: 0.5;
+   transition: 0.5s;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   width: 370px;
+   height: 300px;
+   flex-shrink: 0;
+   border-radius: 24px;
+   border: 4px solid var(--Black, #33322e);
+   background-color: #e39bf5;
+   box-shadow: 12px 12px 0px 0px #33322e;
+   margin-left: 95px;
+   margin-top: 60px;
+   gap: 14px;
+}
+.Done{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
